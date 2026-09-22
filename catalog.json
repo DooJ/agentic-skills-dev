@@ -1,0 +1,53 @@
+{
+  "source_repository": "DooJ/Agentic_Base",
+  "source_commit": "da922ca7bc0a705ce524e5ea70d2bac3d14d3f70",
+  "repository": "DooJ/agentic-skills-dev",
+  "visibility": "public",
+  "category": "개발 스킬",
+  "skills": [
+    {
+      "name": "android_architecture",
+      "path": ".agentic_base/skills/android_architecture"
+    },
+    {
+      "name": "code_commenting",
+      "path": ".agentic_base/skills/code_commenting"
+    },
+    {
+      "name": "code_reviewer",
+      "path": ".agentic_base/skills/code_reviewer"
+    },
+    {
+      "name": "development-orchestrator",
+      "path": ".agentic_base/skills/development-orchestrator"
+    },
+    {
+      "name": "error_responder",
+      "path": ".agentic_base/skills/error_responder"
+    },
+    {
+      "name": "feature_analyzer",
+      "path": ".agentic_base/skills/feature_analyzer"
+    },
+    {
+      "name": "kotlin_basics",
+      "path": ".agentic_base/skills/kotlin_basics"
+    },
+    {
+      "name": "linear-qa",
+      "path": ".agentic_base/skills/linear-qa"
+    },
+    {
+      "name": "sentry-observability",
+      "path": ".agentic_base/skills/sentry-observability"
+    },
+    {
+      "name": "skill-inspector",
+      "path": ".agentic_base/skills/skill-inspector"
+    },
+    {
+      "name": "skill-versioning",
+      "path": ".agentic_base/skills/skill-versioning"
+    }
+  ]
+}
