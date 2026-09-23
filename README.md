@@ -1,7 +1,41 @@
-# 개발 스킬
+<p align="center">
+  <img src="./assets/brand/doon-logo.svg" alt="DooN — DO:ON" width="720">
+</p>
 
-Agentic_Base의 개발 스킬 11개를 분리 보관한 저장소입니다. 현재 실행·동기화의 통합 원본은 `DooJ/Agentic_Base`이며, 이 저장소는 커밋 `da922ca7bc0a705ce524e5ea70d2bac3d14d3f70`의 스킬 스냅샷입니다.
+<p align="center"><strong>Understand the system. Change it with confidence.</strong></p>
 
-각 스킬은 `.agentic_base/skills/<이름>/`에 있습니다. `VERSION.md`에 버전·출처가 기록되어 있고, 외부 원문을 포함한 스킬의 개별 라이선스 파일은 함께 보존했습니다. 전체에 동일한 라이선스를 새로 부여하지 않습니다.
+<p align="center">
+  <img src="./assets/brand/doon-hero.png" alt="DooN Development skill network" width="100%">
+</p>
 
-이 스킬들 중 일부는 Agentic_Base의 공통 규칙, 워크플로우 또는 스크립트를 참조합니다. 단독 실행 전에 해당 의존성을 확인하세요. 포함 목록과 원본 커밋은 `catalog.json`에서 확인할 수 있습니다.
+# DooN Development
+
+**DooN Development**는 코드베이스 이해부터 구현, 리뷰, 오류 대응, 배포 관측까지 개발의 전체 흐름을 연결하는 공개 Codex 플러그인입니다. 플러그인 전체를 켜거나 끌 수 있으며, 설치 후 필요한 스킬만 개별적으로 활성화할 수 있습니다.
+
+`DO:ON`의 두 코어는 개발자의 판단과 에이전트의 실행을 뜻합니다. 코드 변경은 분석에서 시작해 검증과 운영 관측으로 닫히며, 각 스킬은 이 흐름의 한 단계를 명확하게 담당합니다.
+
+## 포함된 스킬
+
+| 영역 | 스킬 |
+|---|---|
+| 개발 오케스트레이션 | `development-orchestrator`, `feature-analyzer` |
+| 구현 품질 | `code-commenting`, `code-reviewer`, `error-responder` |
+| 플랫폼 | `android_architecture`, `kotlin_basics` |
+| 운영 연결 | `linear-qa`, `sentry-observability` |
+| 스킬 품질 | `skill-inspector`, `skill-versioning` |
+
+## 동작 방식
+
+1. 요청에 맞는 스킬이 코드와 프로젝트 상태를 읽습니다.
+2. 분석, 구현, 리뷰, 오류 대응을 서로 독립된 책임으로 수행합니다.
+3. 테스트와 검증 결과를 Linear, Sentry, Git 이력과 연결합니다.
+4. 스킬 변경은 `VERSION.md`에 버전과 출처를 남깁니다.
+
+## 구조
+
+- `.codex-plugin/plugin.json`: 플러그인 메타데이터와 `skills/` 등록
+- `skills/<이름>/`: 실제 스킬 원본, 버전, references, scripts, assets
+- `catalog.json`: 저장소와 스킬 소유권을 확인하는 카탈로그
+- `PLUGIN_VERSION.md`: 플러그인 단위 변경 이력과 출처
+
+일부 스킬은 DooN의 공통 규칙, 워크플로우 또는 런타임을 참조합니다. 각 스킬의 구체적인 버전과 출처는 해당 폴더의 `VERSION.md`에서 확인할 수 있습니다.

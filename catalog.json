@@ -7,47 +7,52 @@
   "skills": [
     {
       "name": "android_architecture",
-      "path": ".agentic_base/skills/android_architecture"
+      "path": "skills/android_architecture"
     },
     {
       "name": "code_commenting",
-      "path": ".agentic_base/skills/code_commenting"
+      "path": "skills/code_commenting"
     },
     {
       "name": "code_reviewer",
-      "path": ".agentic_base/skills/code_reviewer"
+      "path": "skills/code_reviewer"
     },
     {
       "name": "development-orchestrator",
-      "path": ".agentic_base/skills/development-orchestrator"
+      "path": "skills/development-orchestrator"
     },
     {
       "name": "error_responder",
-      "path": ".agentic_base/skills/error_responder"
+      "path": "skills/error_responder"
     },
     {
       "name": "feature_analyzer",
-      "path": ".agentic_base/skills/feature_analyzer"
+      "path": "skills/feature_analyzer"
     },
     {
       "name": "kotlin_basics",
-      "path": ".agentic_base/skills/kotlin_basics"
+      "path": "skills/kotlin_basics"
     },
     {
       "name": "linear-qa",
-      "path": ".agentic_base/skills/linear-qa"
+      "path": "skills/linear-qa"
     },
     {
       "name": "sentry-observability",
-      "path": ".agentic_base/skills/sentry-observability"
+      "path": "skills/sentry-observability"
     },
     {
       "name": "skill-inspector",
-      "path": ".agentic_base/skills/skill-inspector"
+      "path": "skills/skill-inspector"
     },
     {
       "name": "skill-versioning",
-      "path": ".agentic_base/skills/skill-versioning"
+      "path": "skills/skill-versioning"
     }
-  ]
+  ],
+  "plugin": {
+    "name": "agentic-skills-dev",
+    "version": "1.0.2",
+    "display_name": "DooN Development"
+  }
 }
