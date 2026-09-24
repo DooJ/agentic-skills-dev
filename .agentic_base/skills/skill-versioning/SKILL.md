@@ -1,11 +1,11 @@
 ---
 name: skill-versioning
-description: Agentic_Base 스킬을 새로 만들거나 수정·가져온 뒤 VERSION.md의 버전, 변경점, 출처를 갱신하고 검증할 때 사용합니다. 일반적인 스킬 실행에는 사용하지 않습니다.
+description: DooN 스킬을 새로 만들거나 수정·가져온 뒤 VERSION.md의 버전, 변경점, 출처를 갱신하고 검증할 때 사용합니다. 일반적인 스킬 실행에는 사용하지 않습니다.
 ---
 
 # 스킬 버전·출처 관리
 
-Agentic_Base 원본의 스킬을 생성하거나 `SKILL.md`, reference, 도구, asset을 수정한 뒤 필수로 실행한다. 스킬 제작 지침은 환경에서 사용할 수 있는 `skill-creator`를 따르고, 이 스킬은 그 **후속 기록·검증 단계**를 맡는다. 별도 스킬을 선택해야만 기록하는 방식에 의존하지 않도록 공통 규칙과 `project_intake.md`도 이 단계를 요구한다.
+DooN 원본의 스킬을 생성하거나 `SKILL.md`, reference, 도구, asset을 수정한 뒤 필수로 실행한다. 스킬 제작 지침은 환경에서 사용할 수 있는 `skill-creator`를 따르고, 이 스킬은 그 **후속 기록·검증 단계**를 맡는다. 별도 스킬을 선택해야만 기록하는 방식에 의존하지 않도록 공통 규칙과 `project_intake.md`도 이 단계를 요구한다.
 
 ## 기록 위치와 범위
 
